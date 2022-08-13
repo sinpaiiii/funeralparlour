@@ -8,18 +8,26 @@
   text-align: center;
 }
 /* home */
-.logo {
-  float: left;
+.homeCont {
+  border: 2px solid black;
+  height: 40vh;
+  width: 80vw;
+  margin-top: 10px;
   margin-left: 10vw;
-  margin-top: 10vh;
+  padding: 20px;
+}
+.logo {
+  float: right;
+  margin-top: 7vh;
   border-radius: 20px;
 }
 
 .brief {
   margin-top: 10vh;
-  width: 80vw;
-  margin-left: 10vw;
+  width: 60vw;
+  margin-right: 0px;
   text-align: right;
+  position: relative;
 }
 
 /* footer */
