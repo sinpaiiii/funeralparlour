@@ -32,6 +32,16 @@ body {
   color: #ecf1f2;
   background-color: #53565a !important;
 }
+
+/* welcome */
+.wel {
+  margin-top: 10px;
+  width: 70vw;
+  height: 50vh;
+  margin-left: 15vw;
+  /* background-color: #050707; */
+}
+
 /* home */
 .home {
   background-color: #ecf1f2;
