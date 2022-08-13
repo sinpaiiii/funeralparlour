@@ -18,13 +18,14 @@
         <img src="{% static 'star.png'%}" alt="" />
         <h2>Sign up</h2>
       </div>
-      <form action="#" method="post">
+      <form action="reg" method="post">
+        {% csrf_token %}
         <label for="fname">First name</label><br />
         <input type="text" id="fname" name="fname" /><br /><br />
         <label for="lname">Last name</label><br />
         <input type="text" id="lname" name="lname" /><br /><br />
-        <label for="lname">Name of startup</label><br />
-        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="sname">Name of startup</label><br />
+        <input type="text" id="sname" name="sname" /><br /><br />
         <label for="email">Email ID </label><br />
         <input type="email" name="email" id="email" required /><br /><br />
         <label for="number">Contact number </label><br />
