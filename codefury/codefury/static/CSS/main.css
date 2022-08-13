@@ -24,7 +24,12 @@ body {
   border-bottom: 2px solid #050707;
   padding-bottom: 5px;
 }
-
+.blg {
+  background-color: #717999;
+}
+.color2 {
+  color: #ffff8a;
+}
 .color {
   color: #ecf1f2;
 }
