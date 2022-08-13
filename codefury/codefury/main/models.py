@@ -8,5 +8,5 @@ class startUp(models.Model):
     desc = models.TextField()
     funds = models.BooleanField()
     contactNumber = models.IntegerField()
-    email = models.BooleanField()
+    email = models.EmailField()
     # images= models.ImageField(upload_to ="images")
