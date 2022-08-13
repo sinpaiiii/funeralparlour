@@ -4,6 +4,7 @@
   font-family: "Josefin Sans", sans-serif;
   font-weight: bolder;
   font-size: large;
+  overflow-x: hidden;
 }
 body {
   background-color: #ecf1f2;
@@ -17,6 +18,14 @@ body {
   position: relative;
   margin-right: 40vw;
   height: 2rem;
+}
+.u {
+  margin: 10px;
+}
+
+.u:hover {
+  border-bottom: 2px solid #050707;
+  padding-bottom: 5px;
 }
 .branding {
   margin-right: 40vw;
@@ -35,11 +44,8 @@ body {
 
 /* welcome */
 .wel {
-  margin-top: 10px;
-  width: 70vw;
-  height: 50vh;
-  margin-left: 15vw;
-  /* background-color: #050707; */
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 /* home */
