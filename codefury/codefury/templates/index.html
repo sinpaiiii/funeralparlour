@@ -1,55 +1,52 @@
-{% extends 'boilerplate.html' %} 
-{% load static %}
+{% extends 'boilerplate.html' %} {% load static %} {% block content %}
 
-{% block content %}
-
-
-    <!-- Home -->
-    <section class="home">
-      <div class="homeCont">
-        <img src="{% static 'img/star_only.png' %}" alt="" class="logo" />
-        <div class="brief">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          commodi, sapiente voluptas neque voluptate ad, id odit consequuntur in
-          nisi repellendus fugiat quibusdam eos consectetur excepturi magni
-          quam, hic quo.lore lore Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. At blanditiis, accusantium ut repellat cumque amet
-          aliquid, consequuntur deserunt vero reprehenderit, incidunt dicta
-          eaque beatae voluptates sint ipsam unde omnis ratione.
-        </div>
+<!-- Home -->
+<section class="home">
+  <div class="homeCont">
+    <img src="{% static 'img/star_only.png' %}" alt="" class="logo" />
+    <div class="brief">
+      <h5>What we do?</h5>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam commodi,
+      sapiente voluptas neque voluptate ad, id odit consequuntur in nisi
+      repellendus fugiat quibusdam eos consectetur excepturi magni quam, hic
+      quo.lore lore Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
+      blanditiis, accusantium ut repellat cumque amet aliquid, consequuntur
+      deserunt vero reprehenderit, incidunt dicta eaque beatae voluptates sint
+      ipsam unde omnis ratione.
+    </div>
+  </div>
+</section>
+<!-- services -->
+<section class="service" id="service">
+  <h3 class="ser">Our Services</h3>
+  <div class="service1">
+    <div class="card help" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title">START UP</h5>
+        <p class="card-text">
+          A start up struggling to find investors? Worry not, we are here to
+          help you! Sign up here with the neccessary details and we will help
+          your ideas reach investers.
+        </p>
+        <a href="#" class="btn btn-primary hehe">REGISTER</a>
       </div>
-    </section>
-    <!-- services -->
-    <section class="service" id="service">
-      <div class="service1">
-        <div class="card" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">Start Up</h5>
-            <p class="card-text">
-              A Start-Up struggling to find investors? Worry not, we are here to
-              help you! Sign up here with the neccessary details and we will
-              help your ideas reach investers.
-            </p>
-            <a href="#" class="btn btn-primary">register</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">Guide</h5>
-            <p class="card-text">
-              Are you a professional or an investor looking for a promising
-              startUp? The aspiring minds here need it. Browse through them and
-              support the ones that interest you.
-            </p>
-            <a href="/explore" class="btn btn-primary">Browse</a>
-          </div>
-        </div>
+    </div>
+    <div class="card help" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title">GUIDE</h5>
+        <p class="card-text">
+          Are you an entrepreneur or an investor looking for a promising start
+          up? The aspiring minds here need it. Browse through them and support
+          the ones that interest you.
+        </p>
+        <a href="/explore" class="btn btn-primary hehe">BROWSE</a>
       </div>
-    </section>
-    <!-- About -->
-    <section class="abt" id="abt">
-      <div class="about">gscas</div>
-    </section>
-
+    </div>
+  </div>
+</section>
+<!-- About -->
+<section class="abt" id="abt">
+  <div class="about">gscas</div>
+</section>
 
 {% endblock %}
