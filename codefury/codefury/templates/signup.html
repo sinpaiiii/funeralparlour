@@ -1,0 +1,26 @@
+{% extends boilerplate.html %}
+
+{% block content %}
+<div>
+    <form action="#" method="post">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="lname">Start-up name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required><br><br>
+        <label for="password">Enter your password: </label>
+        <input type="password" name-="password" id="password" required><br><br>
+        <label for="password2">Re-enter your password: </label>
+        <input type="password2" name-="password2" id="password2" required><br><br>
+        <label for="number">Enter your contact number: </label>
+        <input type="number" name-="number" id="number" required><br><br>
+        <input type="submit" value="Submit">
+      </form>
+</div>
+
+
+
+  {% endblock %}
