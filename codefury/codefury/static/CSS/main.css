@@ -30,6 +30,22 @@
   position: relative;
 }
 
+.service1 {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  padding: 10px;
+  justify-content: space-evenly;
+  margin-left: 25vw;
+  margin-top: 20px;
+}
+
+/* about */
+.about {
+  width: 70vw;
+  height: 50vh;
+}
+
 /* footer */
 .foot {
   display: flex;
