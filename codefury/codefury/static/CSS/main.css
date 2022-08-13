@@ -139,3 +139,21 @@ body {
   font-size: small;
   margin-top: 4px;
 }
+
+.size {
+  width: 60vw;
+  height: 40vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 20px;
+}
+
+.ava {
+  align-self: baseline;
+  margin-top: 20px;
+}
+
+.avai {
+  margin-top: 60vh;
+  text-decoration: underline;
+}
