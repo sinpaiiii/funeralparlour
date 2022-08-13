@@ -1,6 +1,27 @@
 * {
   margin: 0px;
 }
+/* navBar */
+.branding {
+  margin-right: 40vw;
+  width: 10vw;
+  text-align: center;
+}
+/* home */
+.logo {
+  float: left;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  border-radius: 20px;
+}
+
+.brief {
+  margin-top: 10vh;
+  width: 80vw;
+  margin-left: 10vw;
+  text-align: right;
+}
+
 /* footer */
 .foot {
   display: flex;
