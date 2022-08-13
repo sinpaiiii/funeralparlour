@@ -4,8 +4,8 @@ from quart import template_rendered
 from django.shortcuts import render
 
 
-
 def index(request):
-    template = loader.get_template('index.html')
-    return HttpResponse(template.render())
+    return render(request, 'index.html')
 
+def explore(request):
+    return render(request, 'explore.html')
