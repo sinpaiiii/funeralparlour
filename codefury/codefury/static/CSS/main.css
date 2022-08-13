@@ -1,13 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
 * {
   margin: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+}
+body {
 }
 /* navBar */
 .branding {
   margin-right: 40vw;
   width: 10vw;
   text-align: center;
+  color: #ecf1f2;
+}
+.color {
+  color: #ecf1f2;
+}
+
+.backg {
+  color: #ecf1f2;
+  background-color: #53565a !important;
 }
 /* home */
+.home {
+  background-color: #ecf1f2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .homeCont {
   border: 2px solid black;
   height: 40vh;
@@ -18,8 +39,11 @@
 }
 .logo {
   float: right;
+  margin-right: 30px;
   margin-top: 7vh;
   border-radius: 20px;
+  width: 100px;
+  height: 100px;
 }
 
 .brief {
@@ -47,7 +71,14 @@
 }
 
 /* footer */
+.footer {
+  background-color: #53565a !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .foot {
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
